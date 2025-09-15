@@ -39,7 +39,7 @@
     "shelf_map_url": "",
     "tags": "항히스타민",
     "notes": "졸림 적음",
-    "image_url":""
+    "image_url":"images/로라딘.jpg"
   },
   {
     "id": 4,
@@ -53,7 +53,7 @@
     "shelf_map_url": "",
     "tags": "지사제",
     "notes": "열/혈변 시 복용금지, 의사 상담",
-    "image_url":""
+    "image_url":"images/로프민.jpg"
   },
   {
     "id": 5,
@@ -67,6 +67,6 @@
     "shelf_map_url": "",
     "tags": "소화효소",
     "notes": "",
-    "image_url":""
+    "image_url":"images/훼스탈플러스.jpg"
   }
 ]
