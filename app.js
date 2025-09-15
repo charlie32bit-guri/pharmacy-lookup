@@ -31,7 +31,7 @@ const els = {
 
 // 1) 데이터 로드
 async function load() {
-  const res = await fetch('약품조회.json');
+  const res = await fetch('약품조회.json?v=' + Date.now()); // 캐시 무력화
   const raw = await res.json();
   // 표준화: 키 이름을 JS 내부 표준으로 매핑
   const norm = raw.map(r => ({
