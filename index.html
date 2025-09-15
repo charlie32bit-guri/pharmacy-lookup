@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>약국 일반약 조회</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>약국 일반약 조회</h1>
+  </header>
+
+  <main class="container">
+    <section class="search-bar">
+      <input id="searchInput" type="search" placeholder="약품명 / 브랜드 / 태그 / 효능 검색" aria-label="검색" />
+      <button id="clearBtn" aria-label="검색어 지우기">지우기</button>
+    </section>
+
+    <section class="filters">
+      <div id="categoryChips" class="chips" aria-label="카테고리 필터"></div>
+    </section>
+
+    <section id="stats" class="stats"></section>
+
+    <section id="results" class="grid" aria-live="polite"></section>
+  </main>
+
+  <template id="cardTpl">
+    <article class="card">
+      <img class="thumb" alt="제품 이미지" />
+      <div class="card-body">
+        <h3 class="title"></h3>
+        <p class="indications"></p>
+        <div class="meta">
+          <span class="pill strength"></span>
+          <span class="pill dosage_form"></span>
+          <span class="pill location"></span>
+        </div>
+        <div class="tags"></div>
+      </div>
+    </article>
+  </template>
+
+  <dialog id="detailDialog">
+    <div class="dialog-body">
+      <button id="closeDialog" class="close">닫기</button>
+      <h2 id="dTitle"></h2>
+      <p id="dIndications"></p>
+      <div class="detail-grid">
+        <div><strong>브랜드</strong><span id="dBrand"></span></div>
+        <div><strong>함량</strong><span id="dStrength"></span></div>
+        <div><strong>제형</strong><span id="dForm"></span></div>
+        <div><strong>카테고리</strong><span id="dCategory"></span></div>
+        <div><strong>진열위치</strong><span id="dLocation"></span></div>
+        <div><strong>비고</strong><span id="dNotes"></span></div>
+      </div>
+      <img id="dImage" alt="제품 이미지 크게 보기" />
+      <a id="dShelfMap" href="#" target="_blank" rel="noopener" class="link" hidden>진열도(지도) 열기</a>
+    </div>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>

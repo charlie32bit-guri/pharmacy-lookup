@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "product_name": "타이레놀 500mg",
+    "brand": "Johnson & Johnson",
+    "strength": "500mg",
+    "dosage_form": "정제",
+    "category": "가정상비약",
+    "indications": "진통·해열 (두통, 발열)",
+    "location_code": "H26",
+    "shelf_map_url": "",
+    "tags": "해열,진통,아세트아미노펜",
+    "notes": "",
+    "image_url":""
+  },
+  {
+    "id": 2,
+    "product_name": "이부프로펜 200mg",
+    "brand": "",
+    "strength": "200mg",
+    "dosage_form": "정제",
+    "category": "진통·소염",
+    "indications": "근육통, 치통, 생리통",
+    "location_code": "G12",
+    "shelf_map_url": "",
+    "tags": "진통,소염,NSAID",
+    "notes": "공복 복용 주의",
+    "image_url":""
+  },
+  {
+    "id": 3,
+    "product_name": "로라타딘 10mg",
+    "brand": "",
+    "strength": "10mg",
+    "dosage_form": "정제",
+    "category": "알레르기",
+    "indications": "비염, 가려움",
+    "location_code": "A03",
+    "shelf_map_url": "",
+    "tags": "항히스타민",
+    "notes": "졸림 적음",
+    "image_url":""
+  },
+  {
+    "id": 4,
+    "product_name": "로페라마이드 2mg",
+    "brand": "",
+    "strength": "2mg",
+    "dosage_form": "캡슐",
+    "category": "소화·설사",
+    "indications": "급성 설사 증상 완화",
+    "location_code": "C08",
+    "shelf_map_url": "",
+    "tags": "지사제",
+    "notes": "열/혈변 시 복용금지, 의사 상담",
+    "image_url":""
+  },
+  {
+    "id": 5,
+    "product_name": "훼스탈 플러스",
+    "brand": "Sanofi",
+    "strength": "",
+    "dosage_form": "정제",
+    "category": "소화·위장",
+    "indications": "소화불량",
+    "location_code": "C02",
+    "shelf_map_url": "",
+    "tags": "소화효소",
+    "notes": "",
+    "image_url":""
+  }
+]
