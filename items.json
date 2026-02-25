@@ -30,7 +30,9 @@
     "category": null,
     "indications": null,
     "shelf_map_url": null,
-    "tags": [],
+    "tags": [
+      "동물약"
+    ],
     "notes": null
   },
   {
@@ -65,7 +67,6 @@
     "indications": null,
     "shelf_map_url": null,
     "tags": [
-      "인후통",
       "근육/관절통"
     ],
     "notes": null
@@ -83,7 +84,9 @@
     "category": null,
     "indications": null,
     "shelf_map_url": null,
-    "tags": [],
+    "tags": [
+      "의약외품"
+    ],
     "notes": null
   },
   {
